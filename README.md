@@ -9,7 +9,8 @@ Each of the **fiscal policy** and **monetary policy** folders contain the follow
   - struct Block
   - function f_block
   - function simple_solve_jacobian
-- **het.jl**:
+- **sim_steady_state**: translation of [sim_steady_state.py](https://github.com/shade-econ/nber-workshop-2023/blob/main/Lectures/sim_steady_state.py) 
+- **het.jl**
   - struct HH_Block
   - function mk_grids_and_income
   - function solve_ss
