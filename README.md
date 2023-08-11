@@ -35,4 +35,4 @@ Each of the **fiscal policy** and **monetary policy** folders contains the follo
   - function construct
 - **hank.jl**: code to run the model
 - **tutorial.ipynb**: notebook to give step-by-step instructions on how to use our package (mirrors Tutorials 1 and 2 of the workshop)
-- **running_example.ipynb**: initial draft of tutorial.ipynb; may be helpful for debugging's sake
+- **running_example.ipynb**: initial draft of **tutorial.ipynb**; may be helpful for debugging's sake
