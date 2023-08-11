@@ -4,7 +4,7 @@ We follow [NBER's heterogeneous-agent macro workshop](https://github.com/shade-e
 
 Within the **one asset hank** folder, there are two folders (**fiscal policy** and **monetary policy**) that contain the files needed to solve the one-asset HANK model with fiscal and monetary policy, respectively.
 
-Each of the **fiscal policy** and **monetary policy** folders contain the following files (you can find descriptions of the listed structs and functions within the files):
+Each of the **fiscal policy** and **monetary policy** folders contain the following files (descriptions of the listed structs and functions are within the files themselves):
 - **block.jl**: code to intialize simple blocks
   - struct Block
   - function f_block
