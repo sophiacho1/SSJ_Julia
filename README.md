@@ -34,4 +34,4 @@ Each of the **fiscal policy** and **monetary policy** folders contains the follo
   - function fw_acc
   - function construct
 - **hank.jl**: code to run the model
-- **tutorial.ipynb**: notebook to give step-by-step instruction on how to use our package (mirrors Tutorials 1 and 2 of the workshop)
+- **tutorial.ipynb**: notebook to give step-by-step instructions on how to use our package (mirrors Tutorials 1 and 2 of the workshop)
