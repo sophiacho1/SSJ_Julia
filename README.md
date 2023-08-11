@@ -5,10 +5,24 @@ We follow [NBER's heterogeneous-agent macro workshop](https://github.com/shade-e
 Within the **one asset hank** folder, there are two folders (**fiscal policy** and **monetary policy**) that contain the files needed to solve the one-asset HANK model with fiscal and monetary policy, respectively.
 
 Each of the **fiscal policy** and **monetary policy** folders contain the following files:
-- **block.jl**: code for the initialization of simple blocks
+- **block.jl**: code to intialize simple blocks
   - struct Block
   - function f_block
   - function simple_solve_jacobian
+- **het.jl**:
+  - struct HH_Block
+  - function mk_grids_and_income
+  - function solve_ss
+  - function J_from_F
+  - function get_shocked_inputs
+  - function get_shocked_inputs_no_compound
+  - function unpack_backiter
+  - function step1_backward
+  - function ha_jacobian
+  - function policy_impulse
+  - function distribution_impulse
+  - function household_impulse
+  - function impulse_map
 - **graph.jl**: code to intialize and utilize the DAG representation of the model
   - struct DAG_Rep
   - function make_in_map
@@ -18,7 +32,5 @@ Each of the **fiscal policy** and **monetary policy** folders contain the follow
   - function one_step_jacobians
   - function fw_acc
   - function construct
-- **hank.jl**:
-- **het.jl**:
-- **sim_steady_state.jl**:
-- **tutorial.ipynb**:
+- **hank.jl**: code to run the model
+- **tutorial.ipynb**: notebook to give step-by-step instruction on how to use our package (mirrors Tutorials 1 and 2 of the workshop)
